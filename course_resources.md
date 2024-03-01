@@ -386,3 +386,14 @@
 - [Apple Sample Projects](https://developer.apple.com/sample-code/wwdc/2016/)
 - [5 Libraries Every Developer should know](https://infinum.co/the-capsized-eight/top-5-ios-libraries-every-ios-developer-should-know-about)
 - [Marvel](https://marvelapp.com/)
+
+
+# Corrections to course
+
+Image Literal no longer works.  
+Instead use `diceImageViewOne.image = UIImage(imageLiteralResourceName: "DiceSix")`  
+or use `diceImageViewOne.image = UIImage(name: "DiceSix")`  
+This is pointed out on this question. https://www.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16606448#questions/19966004
+
+on [stackOverflow](https://stackoverflow.com/questions/69346531/image-literal-commands-not-working-in-xcode) it shows that you can use `#imageLiteral(` which allows selecting the image but this is probably not standard or useful in corporate environments.  
+
