@@ -79,3 +79,55 @@ Get a random element from an array
 or shuffle the items with in the array
 `array.shuffle()`
 
+# Auto Layout and Responsive UIs
+
+
+ ```swift
+ func getMilk (){ //do stuff }
+ ```
+
+ call it with `getMilk()`·
+
+ fix indention in xcode
+
+ - `cmd + A` to select all
+ - Editor
+ - Structure
+ - Re-Indent
+
+ ### func calculator exercise
+
+ ```swift
+ // Swift code
+ //Don't change this code:
+ func calculator() {
+   let a = Int(readLine()!)! //First input
+   let b = Int(readLine()!)! //Second input
+ ··
+   add(n1: a, n2: b)
+   subtract(n1: a, n2: b)
+   multiply(n1: a, n2: b)
+   divide(n1: a, n2: b)
+ ··
+ }
+
+ //Write your code below this line to make the above function calls work.
+
+
+ func add(n1: Int, n2: Int){
+     print(n1 + n2)
+ }
+
+ func subtract(n1: Int, n2: Int){
+     print(n1 - n2)
+ }
+
+ func multiply(n1: Int, n2: Int){
+     print(n1 * n2)
+ }
+
+ func divide(n1: Int, n2: Int){
+     print(Double(n1) / Double(n2))
+ }
+ ```
+
